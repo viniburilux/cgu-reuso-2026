@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "gerado_em": "2026-08-30T22:14:23.411788+00:00",
+    "proposito": "2o Concurso de Reuso de Dados Abertos CGU - Discovery + Materializacao",
+    "prazo_final": "2026-09-11",
+    "dias_restantes": 12,
+    "owner": "Imperador + Hermes"
+  },
+  "fontes_dados_utilizadas": [
+    {
+      "id": "pncp-editais",
+      "nome": "PNCP - Portal Nacional de Contratacoes Publicas",
+      "url": "https://pncp.gov.br",
+      "api": "https://pncp.gov.br/api/search/?tipos_documento=edital",
+      "status": "OK",
+      "registros_coletados": 350
+    },
+    {
+      "id": "firms-viirs",
+      "nome": "NASA FIRMS - Fire Information",
+      "url": "https://firms.modaps.eosdis.nasa.gov",
+      "status": "OK",
+      "registros_brasil": 17835,
+      "registros_bahia": 1417
+    },
+    {
+      "id": "ibge",
+      "nome": "IBGE - Servico de Dados",
+      "url": "https://servicodados.ibge.gov.br",
+      "status": "OK",
+      "municipios_ba": 417
+    },
+    {
+      "id": "cnes",
+      "nome": "OpenDataSUS - CNES",
+      "url": "https://apidadosabertos.saude.gov.br/cnes/estabelecimentos",
+      "status": "PARCIAL - 28 hospitais BA com coord (limitacao API)"
+    },
+    {
+      "id": "ceis",
+      "nome": "CGU - CEIS (Empresas Sancionadas)",
+      "url": "https://portaldatransparencia.gov.br/download-de-dados/ceis",
+      "status": "BLOQUEADO - URL requer autenticacao/JS"
+    },
+    {
+      "id": "siconfi",
+      "nome": "SICONFI - Financas Publicas",
+      "url": "https://apidatalake.tesouro.gov.br/ords/siconfi/fin/",
+      "status": "BLOQUEADO - endpoints 404"
+    }
+  ],
+  "datasets_derivados_produzidos": [
+    {
+      "id": "focos-firms-bahia-24h",
+      "arquivo": "achados/dataset_derivado_focos_firms_ba.geojson",
+      "tamanho": "282KB",
+      "registros": 1417,
+      "schema": "GeoJSON Point + properties{date, time, confidence, frp, bright_ti4}",
+      "utilidade": "base para cruzamento territorial com editais e hospitais"
+    },
+    {
+      "id": "editais-pncp-bahia-com-queimadas",
+      "arquivo": "achados/dataset_derivado_editais_pncp_bahia.geojson",
+      "tamanho": "27KB",
+      "registros": 51,
+      "schema": "GeoJSON Point + properties{municipio, modalidade, orgao, data_publicacao, focos_10km, focos_50km, flag_queimada}"
+    },
+    {
+      "id": "crossdata-cnes-fires",
+      "arquivo": "achados/crossdata_cnes_fires.json",
+      "utilidade": "hospitais em proximidade de queimadas ativas"
+    },
+    {
+      "id": "cnes-bahia-full",
+      "arquivo": "raw/cnes_ba_full.json",
+      "tamanho": "475KB",
+      "registros": 300
+    },
+    {
+      "id": "demo-html",
+      "arquivo": "demo/index.html",
+      "tamanho": "34KB",
+      "descricao": "Demo interativa das 4 iniciativas"
+    }
+  ],
+  "iniciativas_portfolio": [
+    {
+      "id": "OPP-001",
+      "nome": "RespostaPublicaQueimadas",
+      "estado": "PROVEN",
+      "score": 9,
+      "pergunta_publica": "Quanto e como o poder publico esta comprando em municipios com queimadas ativas?",
+      "fontes": [
+        "PNCP",
+        "NASA FIRMS",
+        "IBGE"
+      ],
+      "achados_quantificados": {
+        "editais_ba": 51,
+        "focos_firms_ba_24h": 1417,
+        "editais_alerta_10km": 1,
+        "editais_aviso_50km": 10,
+        "municipio_caso_critico": "Catu (1 edital Dispensa + 1 foco <10km)",
+        "municipio_mais_exposto": "Juazeiro (1 edital Dispensa + 13 focos em 50km)"
+      },
+      "codigo_reutilizado": "pipeline Lux-Lab/pncp_bahia_intelligence + raster pipeline ghostworks",
+      "demo_url": "demo/index.html",
+      "risco_principal": "limitacao de centroides para municipios sem coord precisa"
+    },
+    {
+      "id": "OPP-002",
+      "nome": "FracionamentoVisivel",
+      "estado": "PROVEN",
+      "score": 8,
+      "pergunta_publica": "Que orgaos publicam multiplas dispensas no mesmo dia com objetos similares?",
+      "fontes": [
+        "PNCP"
+      ],
+      "achados_quantificados": {
+        "caso_documentado": "Comando da Marinha - 6 dispensas em 28/08/2026",
+        "unidades_marinha": 6,
+        "objetos_complementares": "extintores + piso + limpeza + telefonia + metalon + revestimento"
+      },
+      "codigo_reutilizado": "agregacao pncp_bahia_intelligence"
+    },
+    {
+      "id": "OPP-003",
+      "nome": "ConcentracaoDispensada",
+      "estado": "PROVEN",
+      "score": 7,
+      "pergunta_publica": "Que UFs tem concentracao anormal de dispensas (possivel indicador de risco)?",
+      "fontes": [
+        "PNCP",
+        "IBGE"
+      ],
+      "achados_quantificados": {
+        "media_nacional_dispensas": "21.7%",
+        "uf_mais_alta": "CE",
+        "percentual_ce": "62%",
+        "uf_alerta": [
+          "CE 62%",
+          "RJ 57%",
+          "GO 50%"
+        ],
+        "uf_saudaveis": [
+          "RS 12%",
+          "SP 15%",
+          "BA 18%"
+        ]
+      }
+    },
+    {
+      "id": "OPP-004",
+      "nome": "SaudeEmAreaDeRisco",
+      "estado": "EXPERIMENTED",
+      "score": 8,
+      "pergunta_publica": "Hospitais publicos estao em areas de queimada ativa?",
+      "fontes": [
+        "CNES",
+        "NASA FIRMS"
+      ],
+      "achados_quantificados": {
+        "hospitais_ba_com_coord": 28,
+        "hospitais_alerta_5km": 1,
+        "hospitais_aviso_10km": 2,
+        "caso_critico": "NATHALIA DE MELO GUIMARAES (municipio 316935) - 3.99km de queimada"
+      },
+      "limitacao": "API OpenDataSUS retornou apenas 28 dos milhares de hospitais BA - precisa expansao"
+    }
+  ],
+  "metricas_finais": {
+    "editais_pncp_coletados": 350,
+    "focos_firms_ba_24h": 1417,
+    "hospitais_cnes_ba": 28,
+    "editais_alerta": 1,
+    "editais_aviso": 10,
+    "iniciativas_estado_proven": 3,
+    "iniciativas_estado_experimented": 1,
+    "iniciativas_descobertas": 4,
+    "datasets_derivados": 5,
+    "fontes_ok": 4,
+    "fontes_bloqueadas": 2
+  },
+  "recomendacao_submissao": {
+    "quantidade_recomendada": 2,
+    "justificativa": "Submeter 2 iniciativas que cobrem os 3 criterios de maior peso do edital: Inovacao (peso 2) + Transparencia (peso 2) + Foco em pessoas (peso 2)",
+    "candidatos_submeter": [
+      "OPP-001 RespostaPublicaQueimadas",
+      "OPP-004 SaudeEmAreaDeRisco"
+    ],
+    "motivos": [
+      "OPP-001 ja tem demo, dado real, e cruzamento nao-trivial que ninguem faz",
+      "OPP-004 tem caso critico documentado (hospital 3.99km de queimada)",
+      "Juntas cobrem transparencia (PNCP) + pessoas (CNES) + ambiente (FIRMS)",
+      "Custo de manutencao baixo (datasets publicos estaveis)"
+    ],
+    "alternativa_mais_arrojada": "Submeter tambem OPP-002 caso se queira diferenciacao em inovacao metodologica"
+  },
+  "proximos_passos": [
+    "1. Documentar metodologia (README + arvore de transformacao)",
+    "2. Capturar screenshots da demo",
+    "3. Submeter no Forms (Etapa 1) ate 09/09",
+    "4. Submeter no dados.gov.br (Etapa 2) ate 11/09",
+    "5. Salvar demo em pasta publica (GitHub Pages)"
+  ],
+  "estrutura_pastas": {
+    "raw/": "dados brutos coletados das APIs",
+    "achados/": "datasets derivados + achados nao triviais",
+    "demo/": "demo HTML interativa",
+    "registry.json": "este arquivo"
+  }
+}

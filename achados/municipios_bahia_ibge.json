@@ -1,0 +1,114 @@
+[
+  {
+    "nome_pncp": "Biritinga",
+    "nome_ibge": "Biritinga",
+    "id_ibge": 2903607,
+    "microrregiao": "Serrinha",
+    "mesorregiao": "Nordeste Baiano"
+  },
+  {
+    "nome_pncp": "Boa Nova",
+    "nome_ibge": "Boa Nova",
+    "id_ibge": 2903706,
+    "microrregiao": "Vitória da Conquista",
+    "mesorregiao": "Centro Sul Baiano"
+  },
+  {
+    "nome_pncp": "Bom Jesus da Lapa",
+    "nome_ibge": "Bom Jesus da Lapa",
+    "id_ibge": 2903904,
+    "microrregiao": "Bom Jesus da Lapa",
+    "mesorregiao": "Vale São-Franciscano da Bahia"
+  },
+  {
+    "nome_pncp": "Camaçari",
+    "nome_ibge": "Camaçari",
+    "id_ibge": 2905701,
+    "microrregiao": "Salvador",
+    "mesorregiao": "Metropolitana de Salvador"
+  },
+  {
+    "nome_pncp": "Campo Alegre de Lourdes",
+    "nome_ibge": "Campo Alegre de Lourdes",
+    "id_ibge": 2905909,
+    "microrregiao": "Juazeiro",
+    "mesorregiao": "Vale São-Franciscano da Bahia"
+  },
+  {
+    "nome_pncp": "Catu",
+    "nome_ibge": "Catu",
+    "id_ibge": 2907509,
+    "microrregiao": "Catu",
+    "mesorregiao": "Metropolitana de Salvador"
+  },
+  {
+    "nome_pncp": "Ipiaú",
+    "nome_ibge": "Ipiaú",
+    "id_ibge": 2913903,
+    "microrregiao": "Ilhéus-Itabuna",
+    "mesorregiao": "Sul Baiano"
+  },
+  {
+    "nome_pncp": "Itabuna",
+    "nome_ibge": "Itabuna",
+    "id_ibge": 2914802,
+    "microrregiao": "Ilhéus-Itabuna",
+    "mesorregiao": "Sul Baiano"
+  },
+  {
+    "nome_pncp": "Juazeiro",
+    "nome_ibge": "Juazeiro",
+    "id_ibge": 2918407,
+    "microrregiao": "Juazeiro",
+    "mesorregiao": "Vale São-Franciscano da Bahia"
+  },
+  {
+    "nome_pncp": "Maracás",
+    "nome_ibge": "Maracás",
+    "id_ibge": 2920502,
+    "microrregiao": "Jequié",
+    "mesorregiao": "Centro Sul Baiano"
+  },
+  {
+    "nome_pncp": "Maraú",
+    "nome_ibge": "Maraú",
+    "id_ibge": 2920700,
+    "microrregiao": "Valença",
+    "mesorregiao": "Sul Baiano"
+  },
+  {
+    "nome_pncp": "Salvador",
+    "nome_ibge": "Salvador",
+    "id_ibge": 2927408,
+    "microrregiao": "Salvador",
+    "mesorregiao": "Metropolitana de Salvador"
+  },
+  {
+    "nome_pncp": "Sobradinho",
+    "nome_ibge": "Sobradinho",
+    "id_ibge": 2930774,
+    "microrregiao": "Juazeiro",
+    "mesorregiao": "Vale São-Franciscano da Bahia"
+  },
+  {
+    "nome_pncp": "São Gonçalo dos Campos",
+    "nome_ibge": "São Gonçalo dos Campos",
+    "id_ibge": 2929305,
+    "microrregiao": "Feira de Santana",
+    "mesorregiao": "Centro Norte Baiano"
+  },
+  {
+    "nome_pncp": "Teixeira de Freitas",
+    "nome_ibge": "Teixeira de Freitas",
+    "id_ibge": 2931350,
+    "microrregiao": "Porto Seguro",
+    "mesorregiao": "Sul Baiano"
+  },
+  {
+    "nome_pncp": "Valença",
+    "nome_ibge": "Valença",
+    "id_ibge": 2932903,
+    "microrregiao": "Valença",
+    "mesorregiao": "Sul Baiano"
+  }
+]

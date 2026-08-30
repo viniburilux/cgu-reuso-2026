@@ -1,0 +1,199 @@
+{
+  "focos_total_bahia_24h": 1417,
+  "editais_bahia_total": 51,
+  "editais_bahia_com_coordenadas": 51,
+  "editais_bahia_sem_coordenadas": 0,
+  "top_editais_com_focos_proximos": [
+    {
+      "municipio": "Juazeiro",
+      "descricao": "Contratação de empresa para prestação de serviços de locação de prancha rebaixad",
+      "modalidade": "Dispensa",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 13,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Teixeira de Freitas",
+      "descricao": "Contratação de empresa especializada em prestação de serviços de ELABORAÇÃO DE P",
+      "modalidade": "Dispensa",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 9,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Maracás",
+      "descricao": "Contratação de empresa especializada para prestação de serviços funerários compl",
+      "modalidade": "Pregão - Eletrônico",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 6,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Camaçari",
+      "descricao": "Registro de Preço para Aquisição de material hospitalar (cateter, pasta para ECG",
+      "modalidade": "Pregão - Eletrônico",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 3,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Catu",
+      "descricao": "contratação de empresa especializada para a prestação, sob demanda, de serviços ",
+      "modalidade": "Dispensa",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 3,
+      "focos_10km": 1
+    },
+    {
+      "municipio": "São Gonçalo dos Campos",
+      "descricao": "FORNECIMENTO DE EQUIPAMENTOS DE MEDIÇÃO ANTROPOMÉTRICOS (BALANÇAS E AFINS), VISA",
+      "modalidade": "Pregão - Eletrônico",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 2,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Valença",
+      "descricao": "Aquisição de medicamentos, insumos e materiais assistenciais destinados ao atend",
+      "modalidade": "Dispensa",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 2,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Sobradinho",
+      "descricao": "Contratação de empresa de engenharia para execução de obra de construção de uma ",
+      "modalidade": "Concorrência - Eletrônica",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 2,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Bom Jesus da Lapa",
+      "descricao": "Contratação de Empresa Especializada para Aquisição de Materiais Elétricos, Made",
+      "modalidade": "Pregão - Eletrônico",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 2,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Ipiaú",
+      "descricao": "Materiais JOPEX e Novembro Negro",
+      "modalidade": "Dispensa",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 1,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Boa Nova",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA PARA EXECUÇÃO DE SERVIÇOS HABITUAIS DE TRANSPORTE",
+      "modalidade": "Pregão - Eletrônico",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 1,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Salvador",
+      "descricao": "Contratação de empresa especializada em engenharia  para fornecimento e instalaç",
+      "modalidade": "Dispensa",
+      "data": "2026-08-29",
+      "tem_coords": true,
+      "focos_50km": 0,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Itabuna",
+      "descricao": "A contratação de empresa para fornecimento de refeições acondicionadas em marmit",
+      "modalidade": "Pregão - Eletrônico",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 0,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Salvador",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇO DE ENGENHARIA CIV",
+      "modalidade": "Concorrência - Eletrônica",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 0,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Salvador",
+      "descricao": "REFORMA DO SISTEMA DE ILUMINAÇÃO EM LED NO ESTÁDIO LOCALIZADO NO MUNICÍPIO DE CA",
+      "modalidade": "Concorrência - Eletrônica",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 0,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Maraú",
+      "descricao": "Seleção de proposta apta a gerar o melhor resultado para a contratação de empres",
+      "modalidade": "Pregão - Eletrônico",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 0,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Salvador",
+      "descricao": "AQUISIÇÃO COPO DESC POLIPROPILENO 200ML ÁGUA PAC, NO SISTEMA DE REGISTRO DE PREÇ",
+      "modalidade": "Pregão - Eletrônico",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 0,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Salvador",
+      "descricao": "A presente licitação tem por objeto a aquisição de vergalhão Ca 50 e Ca 60, com ",
+      "modalidade": "Pregão - Eletrônico",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 0,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Salvador",
+      "descricao": "Pavimentação de acessos às rodovias BA-532 e BA-533, no município de Itaparica, ",
+      "modalidade": "Concorrência - Eletrônica",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 0,
+      "focos_10km": 0
+    },
+    {
+      "municipio": "Salvador",
+      "descricao": "Melhoramento de pontos críticos na rodovia BA-880, no trecho: Entr. rodovia BA-5",
+      "modalidade": "Concorrência - Eletrônica",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 0,
+      "focos_10km": 0
+    }
+  ],
+  "editais_proximos_10km": [
+    {
+      "municipio": "Catu",
+      "descricao": "contratação de empresa especializada para a prestação, sob demanda, de serviços ",
+      "modalidade": "Dispensa",
+      "data": "2026-08-28",
+      "tem_coords": true,
+      "focos_50km": 3,
+      "focos_10km": 1
+    }
+  ]
+}

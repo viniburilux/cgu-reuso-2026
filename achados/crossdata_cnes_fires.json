@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "cnes_total": 28,
+    "firms_total": 1417,
+    "data_cnes": "OpenDataSUS",
+    "data_firms": "NASA FIRMS",
+    "window": "24h FIRMS, snapshot CNES"
+  },
+  "top_hospitais_risco": [
+    {
+      "codigo_cnes": 9634126,
+      "nome": "NATHALIA DE MELO GUIMARAES",
+      "municipio_codigo": 316935,
+      "tipo_unidade": 22,
+      "esfera": "MUNICIPAL",
+      "atende_sus": "NAO",
+      "lat": -18.203955067611062,
+      "lon": -45.230326652526855,
+      "focos_5km": 1,
+      "focos_10km": 1,
+      "dist_min_km": 3.99,
+      "flag": "ALERTA"
+    },
+    {
+      "codigo_cnes": 9645292,
+      "nome": "USF DO JARDIM VALERIA III",
+      "municipio_codigo": 293330,
+      "tipo_unidade": 2,
+      "esfera": "MUNICIPAL",
+      "atende_sus": "SIM",
+      "lat": -14.891704754215475,
+      "lon": -40.872230529785156,
+      "focos_5km": 0,
+      "focos_10km": 3,
+      "dist_min_km": 6.79,
+      "flag": "AVISO"
+    },
+    {
+      "codigo_cnes": 9645209,
+      "nome": "IGO MEDICINA ESPECIALIZADA",
+      "municipio_codigo": 293330,
+      "tipo_unidade": 36,
+      "esfera": "MUNICIPAL",
+      "atende_sus": "NAO",
+      "lat": -14.86227697191429,
+      "lon": -40.829336643218994,
+      "focos_5km": 0,
+      "focos_10km": 2,
+      "dist_min_km": 6.31,
+      "flag": "AVISO"
+    }
+  ],
+  "stats": {
+    "alerta_5km": 1,
+    "aviso_10km": 2,
+    "ok": 25
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "marinha_dispensas": [
+    {
+      "data": "2026-08-29T14:47:12.557946",
+      "unidade": "NAVIO-PATRULHA BENEVENTE",
+      "desc": "A solução consiste na aquisição de resistência elétrica para boiler, com potência de 3.000 W, acompanhada de\ntermostato de 20 A e temperatura de atuação de até 120 °C, destinada à manutenção do sistema de aquecimento de\nágua do Navio-Patrulha Benevente."
+    },
+    {
+      "data": "2026-08-29T13:07:49.542678",
+      "unidade": "INST.DE ESTUDOS NO MAR ALTE.PAULO MOREIRA",
+      "desc": "Contratação de empresa especializada para a execução de serviços de manutenção corretiva em caldeira industrial com capacidade de 200 litros, incluindo fornecimento de peças, materiais, equipamentos e mão de obra necessários à execução dos serviços, visando restabelecer e garantir seu adequado funcionamento, segurança e eficiência operacional.\n"
+    },
+    {
+      "data": "2026-08-28T20:48:21.701694",
+      "unidade": "BASE DE FUZILEIROS NAVAIS DO RIO MERITI",
+      "desc": "Contratação de recarga para 90 extintores diversas classes."
+    },
+    {
+      "data": "2026-08-28T20:48:54.806320",
+      "unidade": "NAVIO AUXILIAR PARA",
+      "desc": "Contratação de empresa especializada para prestação de serviços, compreendendo a remoção de revestimento existente e instalação de novo piso antiderrapante, com área total estimada em 60 m², abrangendo a cozinha e áreas adjacentes do Navio Auxiliar \"Pará\" (U-15)."
+    },
+    {
+      "data": "2026-08-28T18:29:42.837283",
+      "unidade": "NAVIO PATRULHA GUANABARA",
+      "desc": "serviço para fornecimento e aplicação de piso de borracha antiderrapante, tipo chapa xadrez, em área aproximada1.1. de 50 m², compreendendo a coberta de Cabos/Marinheiros de vante, o lobby da Enfermaria e o lobby do Paiol de Mantimentos do Navio-Patrulha “Guanabara\""
+    },
+    {
+      "data": "2026-08-28T18:26:23.347184",
+      "unidade": "FRAGATA UNIAO",
+      "desc": "Aquisição de Material de limpeza por meio de dispensa eletrônica para a Fragata União. Saco plástico, Solução de Limpeza Multiuso, Sabão em Pasta e Desengraxante."
+    },
+    {
+      "data": "2026-08-28T17:47:43.162431",
+      "unidade": "GRUPAMENTO DE FUZILEIROS NAVAIS DO RG/RS",
+      "desc": "SERVIÇO DE TELEFONIA"
+    },
+    {
+      "data": "2026-08-28T16:33:15.279536",
+      "unidade": "2.BATALHAO DE INFANTARIA DE FUZILEIROS NAVAIS",
+      "desc": "Aquisição de barras de metalon"
+    }
+  ],
+  "ceara_dispensas": [
+    {
+      "data": "2026-08-30T15:20:59.732247",
+      "municipio": "Sobral",
+      "desc": "SERVIÇO DE REFORMA EM SUBESTAÇÃO"
+    },
+    {
+      "data": "2026-08-30T15:17:18.575749",
+      "municipio": "Sobral",
+      "desc": "MATERIAL DE CONSUMO - PRODUÇÃO E DE HIGIENIZAÇÃO MATERIAL DE"
+    },
+    {
+      "data": "2026-08-28T17:45:18.761820",
+      "municipio": "Sobral",
+      "desc": "AQUISIÇÃO - MATERIAL ELÉTRICO E ELETRÔNICO"
+    },
+    {
+      "data": "2026-08-28T16:31:24.316435",
+      "municipio": "Cascavel",
+      "desc": "MANUTENÇÃO E CONSERVAÇÃO DE MÁQUINAS E EQUIPAMENTOS"
+    }
+  ],
+  "grupos_suspeitos": [
+    {
+      "orgao": "COMANDO DA MARINHA",
+      "data": "2026-08-28",
+      "count": 6,
+      "descricoes": [
+        "Contratação de recarga para 90 extintores diversas classes.",
+        "Contratação de empresa especializada para prestação de serviços, compreendendo a remoção de revestimento existente e instalação de novo piso antiderrapante, com área total estimada em 60 m², abrangendo a cozinha e áreas adjacentes do Navio Auxiliar \"Pará\" (U-15).",
+        "serviço para fornecimento e aplicação de piso de borracha antiderrapante, tipo chapa xadrez, em área aproximada1.1. de 50 m², compreendendo a coberta de Cabos/Marinheiros de vante, o lobby da Enfermaria e o lobby do Paiol de Mantimentos do Navio-Patrulha “Guanabara\"",
+        "Aquisição de Material de limpeza por meio de dispensa eletrônica para a Fragata União. Saco plástico, Solução de Limpeza Multiuso, Sabão em Pasta e Desengraxante.",
+        "SERVIÇO DE TELEFONIA",
+        "Aquisição de barras de metalon"
+      ]
+    }
+  ]
+}
